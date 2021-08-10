@@ -1,0 +1,265 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;;
+}
+html {
+    scroll-behavior: smooth;
+  }
+/* end global rule */
+/* start container */
+.container{
+    
+    margin-left:auto ;
+    margin-right: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+@media (min-width:768px) {
+    .container{
+        width: 750px;
+    }
+}
+@media (min-width:992px) {
+    .container{
+        width: 970px;
+    }
+}
+@media (min-width:1200px) {
+    .container{
+        width: 1170px;
+    }
+}
+:root{
+    --maincol : #00283a;
+    --second : #afb42b;
+ }
+ body{
+     background-color: #02162b;
+     
+ }
+/* start header */
+.header{
+    width: 98% ;
+    margin: auto;
+    margin-top: 10px ;
+    border-radius: 10px ;
+    background-color:var(--maincol);
+    position: sticky;
+    top: 10px;
+    z-index: 2;
+    height: 85px ;
+}
+.header a {
+    text-decoration: none;
+    color: white; 
+    transition: 0.3s ;
+}
+.header .container .links ul {
+    list-style: none ;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.header .down{
+    width: 224px ;
+    height: 40px ;
+    border-radius: 20px  ;
+    margin-top: 19px ;
+    background-color: var(--second);
+    text-align: center;
+}
+.header .icon {
+    margin-top: 30px ;
+}
+.header .icon i{
+    color: #DDD;
+    font-size: 14px ;
+
+}
+.header .down i {
+    color: #DDD;
+    padding-top: 10px ;
+ }
+.header .links a:hover{
+    color:var(--second);
+}
+.header .two{
+    color: var(--second);
+}
+.header .one {
+    color: #dedee0;
+}
+.header .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header .container .links ul li {
+    margin-left: 29px ;
+    margin-top: 14px ;
+    letter-spacing: 2px;
+    color: #DDD;
+    font-size: 14px ;
+}
+.header .container .links hr {
+     border-radius: 8px ;
+     width: 81px ;
+     border: 2px solid var(--second);
+     margin: auto;
+     margin-right: 415px ;
+     margin-top: 33px ;
+}
+/* end header */ 
+/*start cap */ 
+.cap{
+    position: absolute;
+    left: 50% ;
+    top: 50% ;
+    transform: translate(-50% ,-50%);
+   
+}
+.cap h1 {
+    color: white;
+    font-size: 55px ;
+}
+.cap p {
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 3px ;
+}
+.cap .but{
+    width: 224px ;
+    height: 50px ;
+    border-radius: 20px  ;
+    border: 1px solid white ;
+    text-align: center;
+}
+.cap .but a {
+    text-decoration: none;
+    color: white;
+     
+}
+.cap .but i{
+    color: white;
+    margin-left: 20px ;
+    font-size: 20px ;
+    padding-top: 10px ;
+
+}
+/* end cap */
+/* start side */ 
+.side {
+    width: 25% ;
+    background-color: var(--maincol);
+    height: 600px ;
+    margin-left: 110px ;
+    margin-top: 70px ;
+    border-radius: 7px ;
+    position: sticky;
+    top: 2px ;
+    z-index: 1;
+}
+.side .container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+.side .img img {
+    width: 100px ;
+    height: 100px ;
+    border-radius: 50% ;
+}
+.side .container .one{
+    display: flex;
+    flex-direction:column;
+    padding-top: 40px ;
+    flex-wrap: wrap;
+    padding-left: 70p ;
+}
+.side .container .three {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.side .container .three .box  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+.side .container .three .box h6  {
+    margin-left: 100px ;
+    margin-bottom: 40px ;
+
+}
+/* end side */ 
+/* start fit */
+.fit{
+    margin: auto;
+    margin-top: -250px ;
+    width: 64% ;
+}
+.fit .container .boxes{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: auto;
+    justify-content: center;
+     
+
+}
+.fit .container .boxes .box{
+    background-color: var(--maincol);
+    padding: 20px ;
+    margin: 20px ;
+    width: 210px ;
+    height: 180px ;
+    border-radius: 10px ;
+    text-align: center;
+    box-shadow :0px 0px 4px 0px rgb(0,0,0,0.3) ;
+
+}
+.fit .container .boxes .box span {
+    color: var(--second);
+}
+.fit .container .boxes .box h1   {
+    color: #DDD;
+    font-size: 30px ;
+}
+.fit .container .boxes .box p {
+    letter-spacing: 4px ;
+    color: #DDD;
+    font-size: 14px ;
+    border-top: 1px dotted #DDD ;
+    padding-top: 20px ;
+}
+.fit .container h2 {
+    color: #DDD;
+    margin-left:220px  ;
+    margin-bottom: 40px ;
+
+ }
+ /* End fit */ 
+ /* start para */ 
+ 
+ .para p {
+     margin-left:370px ; 
+     background-color: var(--maincol);
+     width: 710px ;
+     padding: 20px ;
+     padding-top: 40px ;
+     padding-bottom: 40px ;
+     color: #DDD;
+     border-radius: 8px ;
+ }
+ .para h2 {
+    color: #DDD;
+    margin-left: 475px   ;
+    margin-top: 40px ;
+
+ }
