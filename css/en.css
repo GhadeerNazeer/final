@@ -1159,8 +1159,8 @@ header .bar .three:after{
     .page .six {
         display: none;
     }
-    .body,.page{
-        overflow: visible;
+    .body,.page ,header{
+        overflow:hidden;
     }
     .page{
         width: 100% ;
