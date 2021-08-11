@@ -1054,6 +1054,9 @@ header .bar .three:after{
     .page .fit{
          margin-top: -250px ;
      }
+     .page .cap{
+         margin-top: -90px ;
+     }
 
     .page .fit   .boxes{
         display: flex;
@@ -1155,5 +1158,83 @@ header .bar .three:after{
     }
     .page .six {
         display: none;
+    }
+    .body,.page{
+        overflow: visible;
+    }
+    .page{
+        width: 100% ;
+    }
+    header{
+        width: 100% ;
+    }
+    .para{
+        margin-left: 0;
+        margin-top: 100px ;
+        margin-right: 0;
+        width: 300px ;
+        padding-right: 80px ;
+        height: 300px ;
+    }
+    .para  p{
+        width: 160px ;
+        height: 250px ;
+        font-size: 13px ;
+    }
+    .main-heading{
+        display: none;
+    }
+    .four{
+        
+        width: 300px ;
+        padding-right: 90px ;
+        width: 300px;
+        margin-left: 0;
+
+    }
+    .four .boxes {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 80px ;
+        padding-left: 40px ;
+        width: 300px ;
+    }
+    .four .boxes .box {
+        width: 170px ;
+        padding-bottom: 40px ;
+        height: 400px;
+
+    }
+    .fiv .boxs{
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 80px ;
+        padding-left: 40px ;
+        width: 300px ;
+        margin-top: 200px ;
+    }
+    .nine .boxes{
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 80px ;
+        padding-left: 40px ;
+        width: 300px ;
+        margin-top: 200px ;
+    }
+    .seven .cont{
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 80px ;
+        padding-left: 40px ;
+        width: 300px ;
+        margin-top: 200px ;
+    }
+    .eight .cont {
+        margin-left: 0;
+        margin-right: 0;
+        padding-right: 80px ;
+        padding-left: 40px ;
+        width: 500px ;
+        margin-top: 200px ;
     }
  }
